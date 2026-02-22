@@ -94,3 +94,50 @@ footer{
     opacity:1;
     transform:translateY(0);
 }
+.btn{
+    display:inline-block;
+    padding:10px 20px;
+    background:#0a66c2;
+    color:white;
+    text-decoration:none;
+    border-radius:25px;
+    transition:.3s;
+}
+.btn:hover{
+    background:#004182;
+    box-shadow:0 0 15px rgba(255,255,255,0.6);
+}
+.contact-links{
+    margin-top:20px;
+    text-align:center;
+
+}
+
+.contact-btn{
+    display:inline-block;
+    margin:10px;
+    padding:12px 25px;
+    text-decoration:none;
+    color:white;
+    border-radius:30px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+/* Email Button */
+.email{
+    background:linear-gradient(45deg,#ff512f,#dd2476);
+}
+.email:hover{
+    transform:scale(1.1);
+    box-shadow:0 0 15px rgba(255,255,255,0.6);
+}
+
+/* GitHub Button */
+.github{
+    background:linear-gradient(45deg,#333,#000);
+}
+.github:hover{
+    transform:scale(1.1);
+    box-shadow:0 0 15px rgba(255,255,255,0.6);
+}
