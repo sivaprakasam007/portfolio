@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>My Portfolio</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
     <h1>Your Name</h1>
-    <p>Software Engineer | Web Developer</p>
+    <p class="typing"></p>
 </header>
 
 <nav>
@@ -19,53 +19,49 @@
     <a href="#contact">Contact</a>
 </nav>
 
-<section id="about">
+<section id="about" class="reveal">
     <h2>About Me</h2>
-    <p>
-        I am a passionate software developer who loves building applications 
-        and solving real-world problems. I specialize in creating clean and efficient code.
-    </p>
+    <p>I am a passionate developer who loves building clean and creative applications.</p>
 </section>
 
-<section id="skills">
+<section id="skills" class="reveal">
     <h2>Skills</h2>
-    <ul class="skills-list">
-        <li>Python</li>
-        <li>Java</li>
-        <li>HTML & CSS</li>
-        <li>JavaScript</li>
-        <li>SQL</li>
-        <li>Git</li>
-    </ul>
+    <div class="skills">
+        <span>Python</span>
+        <span>Java</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>SQL</span>
+    </div>
 </section>
 
-<section id="projects">
+<section id="projects" class="reveal">
     <h2>Projects</h2>
 
-    <div class="project">
+    <div class="card">
         <h3>Project One</h3>
-        <p>Short description of project.</p>
-        <a href="#">GitHub Link</a>
+        <p>Description of project.</p>
+        <a href="#">View Code</a>
     </div>
 
-    <div class="project">
+    <div class="card">
         <h3>Project Two</h3>
-        <p>Short description of project.</p>
-        <a href="#">GitHub Link</a>
+        <p>Description of project.</p>
+        <a href="#">View Code</a>
     </div>
-
 </section>
 
-<section id="contact">
+<section id="contact" class="reveal">
     <h2>Contact</h2>
     <p>Email: your@email.com</p>
-    <p>GitHub: github.com/yourusername</p>
-    <p>LinkedIn: linkedin.com/in/yourname</p>
+    <p>GitHub: github.com/username</p>
 </section>
 
 <footer>
-    <p>© 2026 Your Name</p>
+    © 2026 Your Name
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
